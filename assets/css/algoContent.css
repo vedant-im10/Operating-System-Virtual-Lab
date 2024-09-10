@@ -1,0 +1,38 @@
+.container-algo-content{
+    background-color: var(--primary-color);
+    width:86.11%;
+    border-radius: 12px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    color: #000;
+    padding: 2%;
+}
+
+#intro{
+    flex-grow: 3;
+}
+
+.description{
+    font-size: 15px;
+    line-height: 28.8px;
+    margin-left: 4.8%;
+    margin-right: 4.8%;
+    margin-top:2%;
+
+}
+
+#adv{
+    flex:1;
+    margin-bottom: 2%;
+    margin-right: 1.5%;
+}
+    
+#disadv{
+    flex:1;
+    margin-left:1.5%;
+}
+
+
+    
+   

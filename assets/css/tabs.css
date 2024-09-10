@@ -1,0 +1,43 @@
+.tabs-container {
+    width: 100vw;
+    height: 12vh;   
+}
+
+.sa {
+    width: calc(100vw/7);
+}
+
+.pra {
+    width: calc(100vw/6);
+}
+
+.dev {
+    width: calc(100vw/4);
+}
+
+.tab {
+    height: inherit;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.active-tab {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+#sjf, #ljf, #rr, #lrtf, #srtf, #priority, #belady, #lifo, #lru, #optimal, #random, #disk, #pageRep, #concurrency {
+    display: none;
+}
+
+.page-heading {
+    width: 100vw;
+    height: 12vh;
+    background-color: var(--secondary-color);
+}

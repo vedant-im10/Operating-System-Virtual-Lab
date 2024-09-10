@@ -1,0 +1,83 @@
+body {
+  font-family: "Century Gothic", "Lato", sans-serif;
+}
+h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.toAlign {
+  height: 90vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0 1em;
+}
+.hor {
+  height: 70vh;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#chartContainer {
+  position: relative;
+  top: 1em;
+  width: 84.3%;
+  height: 100%;
+  padding: 0 1em;
+}
+
+.explain {
+  width: 97.7%;
+  height: 18%;
+  position: relative;
+  top: 16.5em;
+  padding: 0 1em;
+  background-color: black;
+  color: white;
+}
+
+.compare_box {
+  position: relative;
+  top:1em;
+  left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0;
+  height: 100%;
+  padding: 0 1em;
+  background: var(--secondary-color);
+}
+
+.b{
+  width: 2%;
+  height: 20px;
+}
+.b:hover{
+  color: white;
+}
+#FCFS{
+  display: block;
+}
+#SSTF{
+  display: none;
+}
+#SCAN{
+  display: block;
+}
+#CSCAN{
+  display: block;
+}
+#LOOK{
+  display: block;
+}
+#CLOOK{
+  display: block;
+}

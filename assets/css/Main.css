@@ -1,0 +1,270 @@
+body {
+  font-family: "Century Gothic", "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.authors p {
+  position: absolute;
+  top: 28em;
+  left: 15em;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+
+.authors li {
+  position: absolute;
+  list-style: none;
+  left: 15em;
+  color: white;
+}
+
+.authors li:nth-child(1) {
+  top: 31em;
+}
+.authors li:nth-child(2) {
+  top: 32.2em;
+}
+.authors li:nth-child(3) {
+  top: 33.4em;
+}
+.authors li:nth-child(4) {
+  top: 34.6em;
+}
+
+.tabs {
+  justify-content: center;
+}
+
+.tabs, .et-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: #eee;
+}
+
+.et-slide h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+
+.text {
+  position: absolute;
+  top: 5em;
+  left: 60em;
+  justify-content: center;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: right;
+}
+
+.text h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+  letter-spacing: 0.4rem;
+}
+
+.text h1:nth-child(2) {
+  top: 5em;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+.tab:hover {
+  color: white;
+  background: var(--secondary-color);
+  transition: all 0.5s ease;
+}
+#tab-slider {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 6px;
+  background: var(--secondary-color);
+  transition: left 0.3s ease;
+}
+
+.heading{
+  position: relative;
+  background-color: var(--secondary-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 100%;
+  height: 85px;
+  margin: 0 4em;
+  display: flex;
+  justify-content: center;
+}
+
+.heading h2{
+  padding-top: 1%;
+}
+
+.sec_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 4em 10em;
+}
+
+.sec_body > div {
+  flex: 1 1 100%;
+}
+
+.info {
+  background-color:var(--primary-color);
+  color: black;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 8em;
+  padding: 1em 1.5em;
+  text-align: justify;
+}
+
+.info p {
+  font-size: 1em;
+  margin: 0.2em 2em;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.info h3 {
+  font-size: 1.5em;
+  margin: 1em 1em 0 1em;
+  align-items: flex-start;
+}
+
+.practical {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.practical h2 {
+  margin: 0 4em 2em 4em;
+}
+
+.nextInfo {
+  background-color: var(--primary-color);
+  color: black;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin: 8em;
+  padding: 2em 1.5em;
+  text-align: justify;
+}
+
+.nextInfo p {
+  font-size: 0.8em;
+  margin: 0em 2em;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.nextInfo h3 {
+  font-size: 1.5em;
+  margin: 0.5em 1em 0 1em;
+  align-items: flex-start;
+}
+
+.nextInfo h5 {
+  font-size: 1em;
+  margin: 0.3em 1.3em 0 1.3em;
+  align-items: flex-start;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.btn {
+  font-family: "Century Gothic", "Lato", sans-serif;
+  overflow: hidden;
+  outline: none;
+  background-color:var(--secondary-color);
+  color: white;
+  border: 0.1em solid var(--secondary-color) !important;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.2em 1em;
+  margin: 1em 1.5em;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color:var(--secondary-color);
+  border: 0.1em solid var(--secondary-color);
+}
+
+/* @media (min-width: 800px) {
+  .tabs,
+  .et-slide {
+h1 {
+      font-size: 3rem;
+    }
+  }
+  .tab {
+    font-size: 1rem;
+  }
+} */

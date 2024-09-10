@@ -1,0 +1,153 @@
+:root {
+    --black-shade: #000;
+    --white-shade: #C8E3FF;
+}
+
+body {
+    margin: 0;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main .table-con {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    /* align-items: center; */
+    text-align: center;
+    flex: 1 1 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    flex-direction: column;
+    background: var(--white-shade);
+    color: var(--black-shade);
+    font-weight: 500;
+    border-radius: 12px;
+    /* justify-content: center; */
+}
+
+.main .table-con .table {
+    width: 100%;
+    padding: 10px 0;
+    /* align-self: center; */
+    /* border: 1px solid blue; */
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px var(--white-shade) inset !important;
+}
+
+.main .table-con .table input {
+    max-width: 80px;
+    width: 100%;
+    padding: 6px 12px;
+    background: var(--white-shade);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--black-shade);
+    text-align: center;
+}
+
+.main .table-con .table input:active {
+    background: var(--white-shade);
+}
+
+.nameTable {
+    /* border: 1px solid orange; */
+    width: 100%;
+    padding: 20px;
+}
+
+.nameTable td {
+    /* border: 1px solid var(--black-shade); */
+    padding: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+/* .nameTable th {
+    font-size: 11px;
+} */
+
+.table-action-grp {
+    box-sizing: border-box;
+    padding: 0 62px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-action-grp button {
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.table-action-grp button:hover, .table-action-grp button:focus {
+    background: #AAA;
+    /* box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2); */
+}
+
+.table-action-grp button div {
+    padding: 3px 0;
+    color: var(--black-shade);
+    font-weight: bold;
+}
+
+.table-action-grp button div svg {
+    font-size: 20px;
+}
+
+#deleteBtn {
+    font-size: 20px;
+    color: rgb(221, 66, 66);
+}
+
+.submit-div, .avg{
+    position: absolute;
+    bottom: 10px;
+    right: 10px; 
+}
+
+.avg {
+    left: 10px;
+    text-align: left;
+    width: max-content;
+}
+.avg > div {
+    display: inline-block;
+    font-size: 18px;
+    margin: 3px 0;
+    width: max-content;
+}
+
+.submit-div .submit-btn {
+    margin-bottom: 15px;
+    margin-right: 40px;
+    padding: 10px 30px;
+    color: var(--white-shade);
+    background: var(--black-shade);
+    border-radius:  50px;
+    border: 1px solid var(--black-shade);
+    outline: none;
+    font-weight: bold;
+}
+
+.submit-div .submit-btn:hover, .submit-div .submit-btn:focus {
+    background: var(--white-shade);
+    color: var(--black-shade);
+    border: 2px solid var(--black-shade);
+}
